@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39230FFF23691BE400FB88D7 /* AFNHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39230FFE23691BE400FB88D7 /* AFNHelper.swift */; };
+		3974FA92236A7C6700EED8CF /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974FA91236A7C6700EED8CF /* HomeModel.swift */; };
 		398FA19E23667E3300B99E20 /* MainpushTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FA19D23667E3300B99E20 /* MainpushTableViewController.swift */; };
 		398FA1A02366882800B99E20 /* HomePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FA19F2366882800B99E20 /* HomePushViewController.swift */; };
 		398FA1A22366884200B99E20 /* MessagePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FA1A12366884200B99E20 /* MessagePushViewController.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		39230FFE23691BE400FB88D7 /* AFNHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNHelper.swift; sourceTree = "<group>"; };
+		3974FA91236A7C6700EED8CF /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		398FA19D23667E3300B99E20 /* MainpushTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpushTableViewController.swift; sourceTree = "<group>"; };
 		398FA19F2366882800B99E20 /* HomePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePushViewController.swift; sourceTree = "<group>"; };
 		398FA1A12366884200B99E20 /* MessagePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePushViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		39F070A6235AE7A000C7237C /* Model（模型） */ = {
 			isa = PBXGroup;
 			children = (
+				3974FA91236A7C6700EED8CF /* HomeModel.swift */,
 			);
 			path = "Model（模型）";
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				39F070BC235AE87000C7237C /* ZBBaseViewViewController.swift in Sources */,
 				39F070BD235AE87000C7237C /* ZBNavigationViewController.swift in Sources */,
 				398FA1A42366885100B99E20 /* DiscoverPushViewController.swift in Sources */,
+				3974FA92236A7C6700EED8CF /* HomeModel.swift in Sources */,
 				39F07087235AE52700C7237C /* ViewController.swift in Sources */,
 				398FA1A22366884200B99E20 /* MessagePushViewController.swift in Sources */,
 				398FA19E23667E3300B99E20 /* MainpushTableViewController.swift in Sources */,

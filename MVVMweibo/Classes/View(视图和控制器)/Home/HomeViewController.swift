@@ -66,11 +66,11 @@ class HomeViewController: ZBBaseViewViewController,UITableViewDelegate,UITableVi
         
         if(returnString == "注册"){
             
-            print("主控制器响应注册");
+            print("主控制器响应注册代理");
             
         }else{
             
-            print("主控制器响应登录");
+            print("主控制器响应登录代理");
         }
     }
 }

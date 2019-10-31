@@ -9,6 +9,9 @@
 import UIKit
 
 class HomePushViewController: ZBBaseViewViewController {
+    
+    private lazy var webView = UIWebView()
+    private lazy var model = HomeModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +30,13 @@ extension HomePushViewController{
         
         getNetwork();
       
-
     }
     
     //未封装的网络请求
 
     private func getNetwork(){
         
-        let urlString = "http://10.0.11.29:80/mobile/getDeviceRegisterSet.action"
+        let urlString = "http://10.0.11.25:80/mobile/getDeviceRegisterSet.action"
         
 //        AFNHelper.shared.get(urlString, parameters: nil, progress: nil, success: { (_, json) in
 //
@@ -45,17 +47,21 @@ extension HomePushViewController{
 //            print("网络请求失败\(error)")
 //        };
         
-        AFNHelper.shared.request(method: .POST, urlString: urlString, parameters: ["123":"" as AnyObject]) { (json, isSuccess) in
+        AFNHelper.shared.request(method: .POST, urlString: urlString, parameters: [:]) { (json, isSuccess) in
             
             if(isSuccess == true){
              
-                print(json ?? "123");
+                print(json!);
+                
+                self.model = HomeModel.mj_object(withKeyValues: json)
+                //把模型写入数组
+
+                print(self.model.message ?? "123");
 
             }
         }
     
     }
-    
 }
 
 
