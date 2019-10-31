@@ -4,6 +4,5 @@
 
 #import "JumpPublicAction.h"
 #import "AFNetworking.h"
-#import "YYModel.h"
 #import "MJExtension.h"
 #import "POP.h"

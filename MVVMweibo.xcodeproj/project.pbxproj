@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		39230FFF23691BE400FB88D7 /* AFNHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39230FFE23691BE400FB88D7 /* AFNHelper.swift */; };
 		3974FA92236A7C6700EED8CF /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974FA91236A7C6700EED8CF /* HomeModel.swift */; };
+		3974FA99236AD78700EED8CF /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974FA97236AD78700EED8CF /* MessageTableViewCell.swift */; };
+		3974FA9A236AD78700EED8CF /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3974FA98236AD78700EED8CF /* MessageTableViewCell.xib */; };
 		398FA19E23667E3300B99E20 /* MainpushTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FA19D23667E3300B99E20 /* MainpushTableViewController.swift */; };
 		398FA1A02366882800B99E20 /* HomePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FA19F2366882800B99E20 /* HomePushViewController.swift */; };
 		398FA1A22366884200B99E20 /* MessagePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FA1A12366884200B99E20 /* MessagePushViewController.swift */; };
@@ -34,6 +36,8 @@
 /* Begin PBXFileReference section */
 		39230FFE23691BE400FB88D7 /* AFNHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNHelper.swift; sourceTree = "<group>"; };
 		3974FA91236A7C6700EED8CF /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		3974FA97236AD78700EED8CF /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		3974FA98236AD78700EED8CF /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		398FA19D23667E3300B99E20 /* MainpushTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpushTableViewController.swift; sourceTree = "<group>"; };
 		398FA19F2366882800B99E20 /* HomePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePushViewController.swift; sourceTree = "<group>"; };
 		398FA1A12366884200B99E20 /* MessagePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePushViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 			children = (
 				39F070C2235AE90300C7237C /* MessageViewController.swift */,
 				398FA1A12366884200B99E20 /* MessagePushViewController.swift */,
+				3974FA97236AD78700EED8CF /* MessageTableViewCell.swift */,
+				3974FA98236AD78700EED8CF /* MessageTableViewCell.xib */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3974FA9A236AD78700EED8CF /* MessageTableViewCell.xib in Resources */,
 				39F07092235AE52800C7237C /* LaunchScreen.storyboard in Resources */,
 				39F0708F235AE52800C7237C /* Assets.xcassets in Resources */,
 			);
@@ -369,6 +376,7 @@
 				39F0708D235AE52700C7237C /* MVVMweibo.xcdatamodeld in Sources */,
 				39F070C1235AE8F400C7237C /* HomeViewController.swift in Sources */,
 				39230FFF23691BE400FB88D7 /* AFNHelper.swift in Sources */,
+				3974FA99236AD78700EED8CF /* MessageTableViewCell.swift in Sources */,
 				39F070BB235AE87000C7237C /* ZBBaseTableViewController.swift in Sources */,
 				39F070C5235AE90F00C7237C /* DiscoverViewController.swift in Sources */,
 				39F070BA235AE87000C7237C /* BaseTabBarViewController.swift in Sources */,
